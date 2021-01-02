@@ -50,3 +50,4 @@ hier_df1_2 = hier_df1.mean(level='city', axis=1)
 # Get average only by city
 hier_df1_3 = hier_df1_2.mean(level=None)
 print(hier_df1_3)
+print('something else')
